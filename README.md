@@ -129,8 +129,3 @@ This can happen due to safety filtering. Please check the prompt or try again.
       * It makes the **Second API Call**, sending the original prompt *plus* the mock result back to Gemini.
       * Gemini uses the snippet to generate the final, fully formatted recipe card, including the nutritional estimates.
       * The final output block includes a check: `if response.text:` to handle cases where the model returns an empty body.
-
-<!-- end list -->
-
-```
-```
